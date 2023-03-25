@@ -12,7 +12,13 @@ a {
 }
 
 a:active {
+    text-decoration: none;
     color: #333;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
 }
 
 body {
@@ -163,6 +169,10 @@ p {
     animation: fadeInFromLeft 1.5s ease forwards;
 }
 
+.box-two .text p {
+    font-size: 22px;
+}
+
 .fade-in-from-bottom {
     opacity: 0;
     animation: fadeInFromBottom 1s ease forwards;
@@ -259,6 +269,33 @@ p {
 
   .copyright {
     font-size: 14px;;
+  }
+
+  /* CAROUSEL CSS */
+
+  #myCarousel {
+    margin-top: 75px;
+    background-color: #483C32;
+    color: #fff;
+    padding: 25px;
+    border-radius: 3px;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  #myCarousel h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-align: left;
+    margin-left: 20px;
+    letter-spacing: .1rem;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+  }
+
+  a.left.carousel-control {
+    background: transparent !important;
   }
 
   /* KEYFRAMES */
