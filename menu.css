@@ -1,64 +1,103 @@
-main {
-    display: flex;
-    flex-direction: row;
+.page-box h1 {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
 }
 
 .menu-background {
-    background-image: url('./images/menu.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    margin-top: 15px;
-    box-shadow: 0px 5px 10px #333;
-    animation: fadein 2s;
-    filter: brightness(60%);
-  }
+  background-image: url("./images/menu.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  margin-top: 15px;
+  box-shadow: 0px 5px 10px #333;
+  animation: fadein 2s;
+  filter: brightness(60%);
+}
 
-  .disclaimer {
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-  }
+.disclaimer {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
 
-  .menu-item {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-  }
+.menu-item {
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 50px 0 10px 0;
+  font-family: "Raleway", sans-serif;
+  flex-basis: 100%;
+  border: 1px solid #333;
+}
 
-  .menu-item p {
-    font-size: .9rem;
-  }
-  
-  .item-name {
-    font-family: 'Indie Flower', cursive;
-    font-size: 20px;
-    margin-bottom: 10px;
-    letter-spacing: .1rem;;
-    font-weight: bold;
-    flex-basis: 100%;
-  }
-  
-  .item-details {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    align-items: center;
-  }
-  
-  .item-size {
-    font-size: 0.9rem;
-    font-weight: bold;
-    margin-bottom: .3rem;
-    text-transform: uppercase;
-  }
-  
-  .item-price {
-    font-size: 1 rem;
-    font-weight: bold;
-  }
+.menu-item h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+
+}
+
+.smoothie p{
+  font-size: 20px !important;
+}
+
+.no-border {
+  border: none;
+}
+
+.flavor-menu-item,
+.extras-menu-item,
+.milkshakes-menu-item,
+.fridge-menu-item {
+  display: flex;
+  width: 200px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #333;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.menu-item p {
+  font-size: 0.9rem;
+}
+
+.item-name {
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  /* display: inline-block;
+  border-bottom: 1px solid #333; */
+}
+
+.item-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.item-size {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+}
+
+.item-price {
+  font-size: 1 rem;
+  font-weight: bold;
+}

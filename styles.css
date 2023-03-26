@@ -1,375 +1,374 @@
 /* MAIN CSS */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    color: #333;
+  text-decoration: none;
+  color: #333;
 }
 
 a:active {
-    text-decoration: none;
-    color: #333;
+  text-decoration: none;
+  color: #333;
 }
 
 a:hover {
-    color: #333;
-    text-decoration: none;
+  color: #333;
+  text-decoration: none;
 }
 
 body {
-    background-color: #F2E9E4;
+  background-color: #f2e9e4;
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    background-color: #F2E9E4;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #f2e9e4;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 ul {
-    list-style-type: none;
-    margin-left: auto;
+  list-style-type: none;
+  margin-left: auto;
 }
 
 li {
-    font-size: 20px;
-    font-family: 'Indie Flower', cursive, sans-serif;
-    display: inline-block;
-    margin: 25px 25px 0 0;
-    color: #333;
-    position: relative;
+  font-size: 20px;
+  font-family: "Indie Flower", cursive, sans-serif;
+  display: inline-block;
+  margin: 25px 25px 0 0;
+  color: #333;
+  position: relative;
 }
 
 li:first-child::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -20px; /* adjust this value to position the line */
-    width: 2px;
-    height: 100%;
-    background-color: #333;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -20px; /* adjust this value to position the line */
+  width: 2px;
+  height: 100%;
+  background-color: #333;
 }
 
 li:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 li::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #333;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 li:hover::after {
-    opacity: 1;
+  opacity: 1;
 }
 
 .cup {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    margin: 10px 10px 10px 25px;
-    float: left;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: 10px 10px 10px 25px;
+  float: left;
 }
 
 .coffee-beans {
-    background-image: url('./images/mugs-front.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    position: relative;
-    z-index: 1; /* Ensure that the coffee beans are behind the navbar */
-    width: 100%;
-    margin-top: 15px;
-    box-shadow: 0px 5px 10px #333;
-    animation: fadein 2s;
-    filter: brightness(60%);
+  background-image: url("./images/mugs-front.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  position: relative;
+  z-index: 1; /* Ensure that the coffee beans are behind the navbar */
+  width: 100%;
+  margin-top: 15px;
+  box-shadow: 0px 5px 10px #333;
+  animation: fadein 2s;
+  filter: brightness(60%);
 }
 
 .text-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border: solid white 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: solid white 2px;
 }
 h1 {
-    font-size: 48px;
-    font-weight: bold;
-    font-family: 'Indie Flower', cursive;
-    margin: 0;
-    line-height: 1.2;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+  margin: 0;
+  line-height: 1.2;
 }
 p {
-    font-size: 24px;
-    font-weight: 300;
-    font-family: open-sans;
-    margin-top: 10px;
-    margin-bottom: 0;
-    line-height: 1.5;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: open-sans;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 1.5;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
 }
 
 .wifi {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .wifi p {
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: .2rem;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.2rem;
 }
 
 .wifi-icon {
-    margin-top: 10px;
-    color: #333;
-    font-size: 24px;
-  }
+  margin-top: 10px;
+  color: #333;
+  font-size: 24px;
+}
 
 .box-one,
 .box-two {
-    margin-top: 75px;
-    display: column;
-    align-items: center;
-    justify-content: center;
+  margin-top: 75px;
+  display: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .box-one .text p,
 .box-two .text p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.5rem;
-    text-align: justify;
-    margin: 35px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: 35px;
 }
 
 .box-one .text p {
-    opacity: 0;
-    animation: fadeInFromLeft 1.5s ease forwards;
+  opacity: 0;
+  animation: fadeInFromLeft 1.5s ease forwards;
 }
 
 .box-two .text p {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .fade-in-from-bottom {
-    opacity: 0;
-    animation: fadeInFromBottom 1s ease forwards;
+  opacity: 0;
+  animation: fadeInFromBottom 1s ease forwards;
 }
 
 .box-one .text h2,
 .box-two .text h2,
 .location-hours .location h2 {
-    font-family: 'Raleway', sans-serif;
-    color: #333;
-    text-align: left;
-    margin-left: 20px;
-    letter-spacing: .1rem;
+  font-family: "Raleway", sans-serif;
+  color: #333;
+  text-align: left;
+  margin-left: 20px;
+  letter-spacing: 0.1rem;
 }
 
 .box-one .photo-box-one,
 .box-two .photo-box-two {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .box-one .photo-one {
-    width: 250px;
-    height: 250px;
-    border-radius: 10%;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
-    transform: rotate(-3deg) scale(1.05);
-    opacity: 0;
-    animation: fadeInFromRight 1s ease forwards;
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  transform: rotate(-3deg) scale(1.05);
+  opacity: 0;
+  animation: fadeInFromRight 1s ease forwards;
 }
 
 .box-two .photo-two {
-    width: 250px;
-    height: 250px;
-    border-radius: 10%;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
-    transform: rotate(3deg) scale(1.05);
-    margin-top: 35px;
-    opacity: 0;
-    animation: fadeInFromBottomPhoto 1s ease forwards;
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  transform: rotate(3deg) scale(1.05);
+  margin-top: 35px;
+  opacity: 0;
+  animation: fadeInFromBottomPhoto 1s ease forwards;
 }
 
 .menu-button {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .menu-button button {
-    display: inline-block;
-    padding: 12px 30px;
-    border-radius: 30px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
-    background-color: #ad8b3d;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.2s ease, transform 0.2s ease;
-  }
-  
-  .menu-button button:hover {
-    background-color: #5e6a72;
-    transform: translateY(-3px);
-    cursor: pointer;
-  }
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  background-color: #ad8b3d;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
 
-  .map {
-    display: block;
-    margin: 0 auto;
-    padding: 50px;
-  }
+.menu-button button:hover {
+  background-color: #5e6a72;
+  transform: translateY(-3px);
+  cursor: pointer;
+}
 
-  .location-hours {
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-around;
-  }
+.map {
+  display: block;
+  margin: 0 auto;
+  padding: 50px;
+}
 
-  .location p {
-    text-align: left;
-    margin-left: 25px;
-    font-size: 20px;
-  }
+.location-hours {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
 
-  .hours p {
-    text-align: left;
-    margin-bottom: 15px;
-    font-size: 20px;
-  }
+.location p {
+  text-align: left;
+  margin-left: 25px;
+  font-size: 20px;
+}
 
-  footer {
-    height: 10%;
-    background-color: #333;
-    color: #fff;
-  }
+.hours p {
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
 
-  .copyright {
-    font-size: 14px;;
-  }
+footer {
+  height: 10%;
+  background-color: #333;
+  color: #fff;
+}
 
-  /* CAROUSEL CSS */
+.copyright {
+  font-size: 14px;
+}
 
-  #myCarousel {
-    margin-top: 75px;
-    background-color: #483C32;
-    color: #fff;
-    padding: 25px;
-    border-radius: 3px;
-    margin-left: 25px;
-    margin-right: 25px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
+/* CAROUSEL CSS */
 
-  #myCarousel h2 {
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
-    text-align: left;
-    margin-left: 20px;
-    letter-spacing: .1rem;
-    border-bottom: 1px solid #fff;
-    display: inline-block;
-  }
+#myCarousel {
+  margin-top: 75px;
+  background-color: #483c32;
+  color: #fff;
+  padding: 25px;
+  border-radius: 3px;
+  margin-left: 25px;
+  margin-right: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
-  a.left.carousel-control {
-    background: transparent !important;
-  }
+#myCarousel h2 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  text-align: left;
+  margin-left: 20px;
+  letter-spacing: 0.1rem;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+}
 
-  /* KEYFRAMES */
+a.left.carousel-control {
+  background: transparent !important;
+}
+
+/* KEYFRAMES */
 
 @keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeInFromLeft {
-    from {
-      opacity: 0;
-      transform: translateX(-50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
   }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 
-  @keyframes fadeInFromRight {
-    from {
-      opacity: 0;
-      transform: translateX(100%) rotate(-3deg) scale(1.05);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0) rotate(-3deg) scale(1.05);
-    }
+@keyframes fadeInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%) rotate(-3deg) scale(1.05);
   }
+  to {
+    opacity: 1;
+    transform: translateX(0) rotate(-3deg) scale(1.05);
+  }
+}
 
-  @keyframes fadeInFromBottom {
-    from {
-      opacity: 0;
-      transform: translateY(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+@keyframes fadeInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-  @keyframes fadeInFromBottomPhoto {
-    from {
-      opacity: 0;
-      transform: translateY(100%) rotate(3deg) scale(1.05);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0) rotate(3deg) scale(1.05);
-    }
+@keyframes fadeInFromBottomPhoto {
+  from {
+    opacity: 0;
+    transform: translateY(100%) rotate(3deg) scale(1.05);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(3deg) scale(1.05);
+  }
+}
 
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 768px) {
-    .box-one {
-        display: flex;
-        flex-direction: row;
-        margin: 50px;
-        justify-content: space-around;
-    }
-
-    .box-one .text p {
-        width: 400px;
-        font-size: 22px;
-    }
-
+  .box-one {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: space-around;
   }
+
+  .box-one .text p {
+    width: 400px;
+    font-size: 22px;
+  }
+}

@@ -1,88 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./menu.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./menu.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <img src="./images/cup.png" class="cup" alt="picture of a coffee cup">
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li>Menu</li>
-                <li>Events</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-        </header>
-        <div class="coffee-beans menu-background">
-            <div class="text-container">
-                <h1>Menu</h1>
-            </div>   
+      <img src="./images/cup.png" class="cup" alt="picture of a coffee cup" />
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li>Menu</li>
+          <li>Events</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="coffee-beans menu-background">
+      <div class="text-container">
+        <h1>Menu</h1>
+      </div>
+    </div>
+    <p class="disclaimer">*<em>Prices subject to change</em></p>
+    <div class="page-box">
+      <h1>Drinks</h1>
+      <div class="menu-container">
+        <div class="menu-item">
+          <div class="item-name">Coffee</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$2.15</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$2.35</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$2.55</div>
+            <div class="item-size">Small (Iced)</div>
+            <div class="item-price">$2.65</div>
+            <div class="item-size">Large (Iced)</div>
+            <div class="item-price">$3.85</div>
+            <p>*Reg. Coffee only</p>
+          </div>
         </div>
-        <p class="disclaimer">*<em>Prices subject to change</em></p>
-        <main>
-            <div class="menu-item">
-                <div class="item-name">Coffee</div>
-                <div class="item-details">
-                  <div class="item-size">Small</div>
-                  <div class="item-price">$2.15</div>
-                  <div class="item-size">Medium</div>
-                  <div class="item-price">$2.35</div>
-                  <div class="item-size">Large</div>
-                  <div class="item-price">$2.55</div>
-                  <div class="item-size">Small (Iced)</div>
-                  <div class="item-price">$2.65</div>
-                  <div class="item-size">Large (Iced)</div>
-                  <div class="item-price">$3.85</div>
-                  <p>*Reg. Coffee only</p>
-                </div>
-              </div>
-              
-              <div class="menu-item">
-                <div class="item-name">Pour Over</div>
-                <div class="item-details">
-                  <div class="item-size">Small</div>
-                  <div class="item-price">$3.00</div>
-                  <div class="item-size">Medium</div>
-                  <div class="item-price">$3.35</div>
-                  <div class="item-size">Large</div>
-                  <div class="item-price">$3.55</div>
-                </div>
 
-                <div class="menu-item">
-                    <div class="item-name">Milk</div>
-                    <div class="item-details">
-                      <div class="item-size">Small</div>
-                      <div class="item-price">$2.80</div>
-                      <div class="item-size">Medium</div>
-                      <div class="item-price">$3.40</div>
-                      <div class="item-size">Large</div>
-                      <div class="item-price">$3.80</div>
-                      <div class="item-size">Small (Iced)</div>
-                      <div class="item-price">$3.00</div>
-                      <div class="item-size">Large (Iced)</div>
-                      <div class="item-price">$4.00</div>
-                    </div>
+        <div class="menu-item">
+          <div class="item-name">Pour Over</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$3.00</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$3.35</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$3.55</div>
+          </div>
+        </div>
 
-                    <div class="menu-item">
-                        <div class="item-name">Hot Cocoa</div>
-                        <div class="item-details">
-                          <div class="item-size">Small</div>
-                          <div class="item-price">$3.00</div>
-                          <div class="item-size">Medium</div>
-                          <div class="item-price">$3.35</div>
-                          <div class="item-size">Large</div>
-                          <div class="item-price">$3.55</div>
-                        </div>
+        <div class="menu-item">
+          <div class="item-name">Milk</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$2.80</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$3.40</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$3.80</div>
+            <div class="item-size">Small (Iced)</div>
+            <div class="item-price">$3.00</div>
+            <div class="item-size">Large (Iced)</div>
+            <div class="item-price">$4.00</div>
+          </div>
+        </div>
 
-        </main>
-</body>
+        <div class="menu-item">
+          <div class="item-name">Hot Cocoa</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$3.00</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$3.35</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$3.55</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-container">
+        <div class="menu-item">
+          <div class="item-name">French Press</div>
+          <div class="item-details">
+            <div class="item-size">Large</div>
+            <div class="item-price">$4.20</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-name">Chai Latte</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$3.00</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$3.50</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$3.90</div>
+            <div class="item-size">Small (Iced)</div>
+            <div class="item-price">$3.40</div>
+            <div class="item-size">Large (Iced)</div>
+            <div class="item-price">$4.40</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-name">Tea</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$2.00</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$2.20</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$2.40</div>
+            <div class="item-size">Small (Iced)</div>
+            <div class="item-price">$2.25</div>
+            <div class="item-size">Large (Iced)</div>
+            <div class="item-price">$3.35</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-name">Latte</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$3.25</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$3.60</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$4.00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-container">
+        <div class="menu-item">
+          <div class="item-name">Mocha</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$3.45</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$3.90</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$4.30</div>
+            <div class="item-size">Small (Iced)</div>
+            <div class="item-price">$3.75</div>
+            <div class="item-size">Large (Iced)</div>
+            <div class="item-price">$4.50</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-name">White Mocha</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$3.45</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$3.90</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$4.30</div>
+            <div class="item-size">Small (Iced)</div>
+            <div class="item-price">$3.75</div>
+            <div class="item-size">Large (Iced)</div>
+            <div class="item-price">$4.50</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-name">Latte</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$3.25</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$3.60</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$4.00</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-name">Cappuccino</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$3.25</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$3.60</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$4.00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-container">
+        <div class="menu-item">
+          <div class="item-name">Traditional Macchiato</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$3.00</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$3.60</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$4.00</div>
+            <div class="item-size">Small (Iced)</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-name">American Macchiato</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$3.00</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$3.60</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$4.00</div>
+            <div class="item-size">Small (Iced)</div>
+            <div class="item-price">$3.20</div>
+            <div class="item-size">Large (Iced)</div>
+            <div class="item-price">$4.20</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-name">Breve</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$3.65</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$3.85</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$4.45</div>
+            <div class="item-size">Small (Iced)</div>
+            <div class="item-price">$3.45</div>
+            <div class="item-size">Large (Iced)</div>
+            <div class="item-price">$4.45</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-name">Cappuccino</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$3.25</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$3.60</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$4.00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-container">
+        <div class="menu-item">
+          <div class="item-name">Espresso</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$2.15</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$2.60</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$3.00</div>
+            <div class="item-size">Small (Iced)</div>
+            <div class="item-price">$2.80</div>
+            <div class="item-size">Large (Iced)</div>
+            <div class="item-price">$3.80</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-name">Americano</div>
+          <div class="item-details">
+            <div class="item-size">Small</div>
+            <div class="item-price">$2.35</div>
+            <div class="item-size">Medium</div>
+            <div class="item-price">$2.80</div>
+            <div class="item-size">Large</div>
+            <div class="item-price">$3.25</div>
+            <div class="item-size">Small (Iced)</div>
+            <div class="item-price">$3.25</div>
+            <div class="item-size">Large (Iced)</div>
+            <div class="item-price">$4.25</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-name">Nitro</div>
+          <div class="item-details">
+            <div class="item-size">Small (Iced)</div>
+            <div class="item-price">$5.00</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-container">
+        <div class="menu-item no-border">
+        <h1>Flavors</h1>
+        <div class="flavor-menu-item">
+          <div class="item-name">Vanilla</div>
+          <div class="item-name">Caramel</div>
+          <div class="item-name">Hazelnut</div>
+          <div class="item-name">Salted Caramel</div>
+          <div class="item-name">Pumpkin</div>
+          <div class="item-name">Coconut</div>
+          <div class="item-name">Cinnamon</div>
+          <div class="item-name">Brown Sugar Cinnamon</div>
+          <div class="item-name">Mint</div>
+          <div class="item-name">Almond</div>
+          <div class="item-name">Irish Cream</div>
+          <div class="item-name">Lavender</div>
+          <div class="item-name">Seasonal Flavors</div>
+        </div>
+        </div>
+        <div class="menu-item no-border">
+        <h1>Extras</h1>
+        <div class="extras-menu-item">
+          <div class="item-details">
+            <div class="item-name">Macha</div>
+            <div class="item-price">$1.00</div>
+            <div class="item-name">Espresso Shot</div>
+            <div class="item-price">$1.00</div>
+            <div class="item-name">Steamed Milk</div>
+            <div class="item-price">$.75</div>
+            <div class="item-name">Milk Substitute</div>
+            <div class="item-price">$.75</div>
+          </div>
+        </div>
+        </div>
+        <div class="menu-item no-border">
+        <h1>Milkshakes</h1>
+        <p>(Small: $4.30 / Large: $4.90)</p>
+        <div class="milkshakes-menu-item">
+          <div class="item-name">Vanilla</div>
+          <div class="item-name">Vanilla Coffee</div>
+          <div class="item-name">Chocolate</div>
+          <div class="item-name">Mocha</div>
+          <div class="item-name">Espresso</div>
+          <div class="item-name">Caramel Coffee</div>
+        </div>
+        </div>
+      </div>
+      <div class="menu-container">
+        <div class="menu-item no-border smoothie">
+        <h1>Smoothies</h1>
+        <h2>Ask for flavors</h2>
+        <p>(Small: $4.30 / Large: $4.90)</p>
+        </div>
+      </div>
+      <h1>Fridge</h1>
+      <div class="fridge-menu-item">
+        <div class="item-details">
+          <div class="item-name">Water Bottle</div>
+          <div class="item-price">$1.75</div>
+          <div class="item-name">Juice</div>
+          <div class="item-price">$1.99</div>
+          <div class="item-name">Soda</div>
+          <div class="item-price">$1.85</div>
+          <div class="item-name">Kombucha</div>
+          <div class="item-price">$3.75</div>
+          <div class="item-name">Yerba</div>
+          <div class="item-price">$3.25</div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
