@@ -1,6 +1,6 @@
 .page-box h1 {
   text-align: center;
-  margin-top: 45px;
+  margin-top: 10px;
 }
 
 .menu-container {
@@ -27,6 +27,11 @@
 .disclaimer {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
+}
+
+.disclaimer2 {
+  font-size: 16px;
+  text-align: center;
 }
 
 .menu-item {
@@ -57,7 +62,8 @@
 .flavor-menu-item,
 .extras-menu-item,
 .milkshakes-menu-item,
-.fridge-menu-item {
+.fridge-menu-item,
+.bread-menu-item {
   display: flex;
   width: 200px;
   margin: auto;
@@ -68,8 +74,37 @@
   margin-top: 50px;
 }
 
+h1 {
+  width: 100%;
+}
+
 .menu-item p {
   font-size: 0.9rem;
+}
+
+.combo-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+}
+
+.combo-list p {
+  font-size: 18px;
+}
+
+.salad-header {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  margin: 25px 0 -20px 0;
+  letter-spacing: .1rem;
+}
+
+.combo-header {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  margin-top: 25px;
+  letter-spacing: .1rem;
 }
 
 .item-name {
@@ -78,8 +113,7 @@
   margin-bottom: 10px;
   letter-spacing: 0.1rem;
   font-weight: bold;
-  /* display: inline-block;
-  border-bottom: 1px solid #333; */
+  text-align: center;
 }
 
 .item-details {
@@ -87,7 +121,8 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .item-size {
