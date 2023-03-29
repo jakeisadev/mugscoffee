@@ -1,13 +1,24 @@
+/* MAIN CSS */
+
+body {
+  background-color: #333;
+}
+
+.page-box {
+  margin: 10px;
+}
+
 .page-box h1 {
   text-align: center;
   margin-top: 10px;
+  color: #fff;
 }
 
 .menu-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 25px;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .menu-background {
@@ -26,6 +37,7 @@
 
 .disclaimer {
   font-size: 18px;
+  color: #fff;
   font-family: "Raleway", sans-serif;
 }
 
@@ -36,11 +48,14 @@
 
 .menu-item {
   justify-content: space-around;
-  align-items: flex-start;
-  margin: 50px 0 10px 0;
+  align-items: center;
+  margin: 50px 10px 10px 10px;
   font-family: "Raleway", sans-serif;
   flex-basis: 100%;
-  border: 1px solid #333;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
 }
 
 .menu-item h2 {
@@ -63,19 +78,23 @@
 .extras-menu-item,
 .milkshakes-menu-item,
 .fridge-menu-item,
-.bread-menu-item {
+.bread-menu-item,
+.smoothie-menu-item {
   display: flex;
   width: 200px;
   margin: auto;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid #333;
   text-align: center;
   margin-top: 50px;
 }
 
 h1 {
   width: 100%;
+}
+
+.center {
+  text-align: center;
 }
 
 .menu-item p {
@@ -109,19 +128,23 @@ h1 {
 
 .item-name {
   font-family: "Indie Flower", cursive;
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 24px;
+  margin: 10px;
   letter-spacing: 0.1rem;
   font-weight: bold;
   text-align: center;
+  text-decoration: underline;
 }
 
 .item-details {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
-  align-items: center;
-  margin-top: 20px;
+  /* align-items: center; */
+  /* margin-top: 20px; */
+  /* justify-content: center; */
+  color: #fff;
+  padding: 10px;
   text-align: center;
 }
 
@@ -135,4 +158,16 @@ h1 {
 .item-price {
   font-size: 1 rem;
   font-weight: bold;
+  text-decoration: dotted underline;
+  color: #fff;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 480px) {
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
