@@ -68,13 +68,6 @@ body {
 
 }
 
-/* .main-items {
-  border: 1px solid #fff;
-  border-radius: 4px;
-  padding: 10px;
-  margin-top: 20px;
-} */
-
 .smoothie-menu-item p {
   color: #fff !important;
 }
@@ -154,9 +147,6 @@ h1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
-  /* align-items: center; */
-  /* margin-top: 20px; */
-  /* justify-content: center; */
   color: #fff;
   padding: 10px;
   text-align: center;
