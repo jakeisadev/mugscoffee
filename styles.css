@@ -381,6 +381,57 @@ a.left.carousel-control {
     width: 400px;
     font-size: 22px;
   }
+
+  .menu-icon i {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 30vh;
+    width: 100%;
+    background: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .menu li,
+  .menu li a {
+    display: block;
+    text-align: center;
+    margin: 30px 0 0 0;
+    color: #fff;
+    font-size: 2.3rem;
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    top: -5px;
+    right: 30px;
+    padding: 0px;
+    z-index: 2;
+  }
+
+  .menu-icon i {
+    color: #333;
+    font-size: 35px;
+  }
+
+  .menu-icon i.active {
+    color: #fff;
+  }
+
+  .menu-icon i.close {
+    transform: rotate(45deg);
+    color: black;
+  }
 }
 
 @media (max-width: 480px) {

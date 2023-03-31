@@ -65,7 +65,6 @@ body {
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-
 }
 
 .smoothie-menu-item p {
@@ -123,14 +122,14 @@ h1 {
   font-family: "Indie Flower", cursive;
   text-align: center;
   margin: 25px 0 -20px 0;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 .combo-header {
   font-family: "Indie Flower", cursive;
   text-align: center;
   margin-top: 25px;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 .item-name {
@@ -165,13 +164,13 @@ h1 {
   font-weight: bold;
   text-decoration: dotted underline;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .no-underline {
   text-decoration: none !important;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /* MEDIA QUERIES */
@@ -184,11 +183,11 @@ h1 {
   .item-name {
     font-size: 2rem;
   }
-  
+
   .item-size {
     font-size: 1.2rem;
   }
-  
+
   .item-price {
     font-size: 1.5rem;
   }
@@ -206,11 +205,11 @@ h1 {
   .item-name {
     font-size: 2rem;
   }
-  
+
   .item-size {
     font-size: 1.2rem;
   }
-  
+
   .item-price {
     font-size: 1.5rem;
   }
@@ -228,11 +227,11 @@ h1 {
   .item-name {
     font-size: 2rem;
   }
-  
+
   .item-size {
     font-size: 1.5rem;
   }
-  
+
   .item-price {
     font-size: 1.5rem;
   }
