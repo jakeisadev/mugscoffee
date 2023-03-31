@@ -150,6 +150,7 @@ h1 {
   color: #fff;
   padding: 10px;
   text-align: center;
+  align-items: center;
 }
 
 .item-size {
@@ -160,10 +161,11 @@ h1 {
 }
 
 .item-price {
-  font-size: 1 rem;
+  font-size: 1rem;
   font-weight: bold;
   text-decoration: dotted underline;
   color: #fff;
+  font-family: 'Raleway', sans-serif;
 }
 
 .no-underline {
@@ -174,10 +176,51 @@ h1 {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   .menu-container {
     display: flex;
     flex-direction: column;
+  }
+  .item-name {
+    font-size: 2rem;
+  }
+  
+  .item-size {
+    font-size: 1.2rem;
+  }
+  
+  .item-price {
+    font-size: 1.5rem;
+  }
+
+  .item-details {
+    margin-bottom: 20px;
+  }
+
+  .no-underline {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .item-name {
+    font-size: 2rem;
+  }
+  
+  .item-size {
+    font-size: 1.2rem;
+  }
+  
+  .item-price {
+    font-size: 1.5rem;
+  }
+
+  .item-details {
+    margin-bottom: 20px;
+  }
+
+  .no-underline {
+    font-size: 1.5rem;
   }
 }
 
