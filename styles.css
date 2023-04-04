@@ -374,7 +374,8 @@ a.left.carousel-control {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
+
   .box-one {
     display: flex;
     flex-direction: row;
@@ -384,15 +385,63 @@ a.left.carousel-control {
 
   .box-one .text p {
     width: 400px;
-    font-size: 22px;
+    font-size: 2.7rem;
+  }
+
+  .box-two .text p {
+    font-size: 2.7rem !important;
+  }
+
+
+  .text-container h1 {
+    text-align: center;
   }
 
   .menu-icon i {
     display: none;
   }
+
+  .box-one .photo-one,
+  .box-two .photo-two {
+    width: 300px;
+    height: 300px;
+  }
+
+  .menu-button button {
+    width: 150px;
+    height: 65px;
+  }
+
+  .location-hours {
+    font-size: 2.8rem;
+  }
+
+  .hours p {
+    font-size: 2.8rem;
+  }
+
 }
 
 @media (max-width: 768px) {
+
+  .text-container h1 {
+    text-align: center;
+  }
+
+  .box-one .text p {
+    font-size: 2.5rem !important;
+  }
+
+  .box-two .text p {
+    font-size: 2.5rem !important;
+  }
+
+  .box-one .photo-one,
+  .box-two .photo-two {
+    width: 250px;
+    height: 250px;
+  }
+
   .menu {
     display: none;
     position: absolute;
@@ -438,13 +487,9 @@ a.left.carousel-control {
     color: black;
   }
 
-  .location-hours {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hours {
-    margin-top: 20px;
+  .menu-button button {
+    width: 125px;
+    height: 50px;
   }
 }
 
@@ -455,5 +500,14 @@ a.left.carousel-control {
 
   .box-one .text p {
     font-size: 24px;
+  }
+
+  .location-hours {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hours {
+    margin-top: 20px;
   }
 }
