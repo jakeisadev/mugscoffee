@@ -241,6 +241,10 @@ p {
   cursor: pointer;
 }
 
+.menu-button button a {
+  color: #fff !important;
+}
+
 .map {
   display: block;
   position: absolute;
@@ -432,6 +436,15 @@ a.left.carousel-control {
   .menu-icon i.close {
     transform: rotate(45deg);
     color: black;
+  }
+
+  .location-hours {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hours {
+    margin-top: 20px;
   }
 }
 
