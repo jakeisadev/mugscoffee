@@ -42,6 +42,30 @@
         <h1>Contact Us</h1>
       </div>
     </div>
+    <h1 class="salutation">Thanks for Visting!</h1>
+    <p class="salutation salutation-text">Let us know how we did today.</p>
+    <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+      <div class="input-box">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" pattern="[A-Za-z\s]+" required>
+        <small>Only letters and spaces are allowed.</small>
+      </div>
+      <div class="input-box">
+        <label for="number">Number:</label>
+        <input type="tel" id="number" name="number" pattern="[0-9]+" required>
+        <small>Only numbers are allowed.</small>
+      </div>
+      <div class="input-box">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <div class="button-box input-box">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <footer>
+      <p class="copyright">&copy; 2023 Mugs Coffee. All rights reserved.</p>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
   </body>

@@ -1,3 +1,87 @@
 .contact-background {
     background-image: url("./images/mugs-front.jpg");
   }
+
+  .salutation {
+    text-align: center;
+    margin: 20px 0 20px 0;
+  }
+
+  .salutation-text {
+    margin: -10px 0 20px 0;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  /* Style the form fields */
+  .input-box {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+    border-color: #ad8b3d;
+  }
+  
+  small {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    margin-top: 5px;
+  }
+
+  form button {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background-color: #ad8b3d;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  form button:hover {
+    background-color: #5e6a72;
+    transform: translateY(-3px);
+    cursor: pointer;
+  }
+
+  .button-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .text-container {
+      text-align: center;
+    }
+  }
