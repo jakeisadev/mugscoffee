@@ -502,9 +502,8 @@ a.left.carousel-control {
     font-size: 24px;
   }
 
-  .location-hours {
-    flex-direction: column;
-    align-items: center;
+  .location-hours p { 
+    font-size: 1.5rem;
   }
 
   .hours {
